@@ -8,7 +8,7 @@ import Output from "./components/Output";
 export default function Home() {
   const [word, setWord] = useState("");
   const [bgColor, setBgColor] = useState("ffffff");
-  const [size, setSize] = useState(400);
+  const [size, setSize] = useState(350);
   const [qrCode, setQrCode] = useState("");
   const [loading, setLoading] = useState(false);
 
